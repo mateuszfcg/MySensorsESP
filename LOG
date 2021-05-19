@@ -1,0 +1,616 @@
+Arduino:1.8.14 (Windows 10), Płytka:"NodeMCU 0.9 (ESP-12 Module), 80 MHz, 115200, 4M (3M SPIFFS)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Program Files (x86)\Arduino\arduino-builder -dump-prefs -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\mateu\AppData\Local\Arduino15\packages -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\mateu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries -fqbn=esp8266:esp8266:nodemcu:CpuFrequency=80,UploadSpeed=115200,FlashSize=4M3M -ide-version=10814 -build-path C:\Users\mateu\AppData\Local\Temp\arduino_build_945956 -warnings=none -build-cache C:\Users\mateu\AppData\Local\Temp\arduino_cache_274450 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.esptool.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9 -prefs=runtime.tools.esptool-0.4.9.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9 -prefs=runtime.tools.xtensa-lx106-elf-gcc.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2 -prefs=runtime.tools.xtensa-lx106-elf-gcc-1.20.0-26-gb404fb9-2.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2 -prefs=runtime.tools.mkspiffs.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\mkspiffs\0.1.2 -prefs=runtime.tools.mkspiffs-0.1.2.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\mkspiffs\0.1.2 -verbose C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino
+
+C:\Program Files (x86)\Arduino\arduino-builder -compile -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -hardware C:\Users\mateu\AppData\Local\Arduino15\packages -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -tools C:\Users\mateu\AppData\Local\Arduino15\packages -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries -fqbn=esp8266:esp8266:nodemcu:CpuFrequency=80,UploadSpeed=115200,FlashSize=4M3M -ide-version=10814 -build-path C:\Users\mateu\AppData\Local\Temp\arduino_build_945956 -warnings=none -build-cache C:\Users\mateu\AppData\Local\Temp\arduino_cache_274450 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.esptool.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9 -prefs=runtime.tools.esptool-0.4.9.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9 -prefs=runtime.tools.xtensa-lx106-elf-gcc.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2 -prefs=runtime.tools.xtensa-lx106-elf-gcc-1.20.0-26-gb404fb9-2.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2 -prefs=runtime.tools.mkspiffs.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\mkspiffs\0.1.2 -prefs=runtime.tools.mkspiffs-0.1.2.path=C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\tools\mkspiffs\0.1.2 -verbose C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino
+
+Using board 'nodemcu' from platform in folder: C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.3.0
+
+Using core 'esp8266' from platform in folder: C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.3.0
+
+Detecting libraries used...
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o nul
+
+Alternatives for MySensors.h: [MySensors-master@2.3.2]
+
+ResolveLibrary(MySensors.h)
+
+  -> candidates: [MySensors-master@2.3.2]
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o nul
+
+Alternatives for SPI.h: [SPI@1.0]
+
+ResolveLibrary(SPI.h)
+
+  -> candidates: [SPI@1.0]
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o nul
+
+Alternatives for ESP8266WiFi.h: [ESP8266WiFi@1.0]
+
+ResolveLibrary(ESP8266WiFi.h)
+
+  -> candidates: [ESP8266WiFi@1.0]
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o nul
+
+Alternatives for EEPROM.h: [EEPROM@1.0]
+
+ResolveLibrary(EEPROM.h)
+
+  -> candidates: [EEPROM@1.0]
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI\\SPI.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFi.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiAP.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiGeneric.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiMulti.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiSTA.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\ESP8266WiFiScan.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\WiFiClient.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\WiFiClientSecure.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\WiFiServer.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src\\WiFiUdp.cpp" -o nul
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM\\EEPROM.cpp" -o nul
+
+Generating function prototypes...
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -ffunction-sections -fdata-sections -w -x c++ -E -CC -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+
+"C:\\Program Files (x86)\\Arduino\\tools-builder\\ctags\\5.8-arduino11/ctags" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\preproc\\ctags_target_for_gcc_minus_e.cpp"
+
+Kompilowanie szkicu...
+
+"C:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++" -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/include" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0/tools/sdk/lwip/include" "-IC:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956/core" -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -std=c++11 -MMD -ffunction-sections -fdata-sections -DF_CPU=80000000L -DLWIP_OPEN_SRC -DARDUINO=10814 -DARDUINO_ESP8266_NODEMCU -DARDUINO_ARCH_ESP8266 "-DARDUINO_BOARD=\"ESP8266_NODEMCU\"" -DESP8266 "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\cores\\esp8266" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\variants\\nodemcu" "-IC:\\Users\\mateu\\OneDrive\\Dokumenty\\Arduino\\libraries\\MySensors-master" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\SPI" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\ESP8266WiFi\\src" "-IC:\\Users\\mateu\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.3.0\\libraries\\EEPROM" "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp" -o "C:\\Users\\mateu\\AppData\\Local\\Temp\\arduino_build_945956\\sketch\\GatewayESP8266.ino.cpp.o"
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:60:3: error: stray '\302' in program
+
+   <title>Arduino/gdb_hooks.h at master · esp8266/Arduino · GitHub</title>
+
+   ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:60:3: error: stray '\267' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:60:3: error: stray '\302' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:60:3: error: stray '\267' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:316:7: error: missing terminating ' character
+
+       <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="32969220" data-scoped-search-url="/esp8266/Arduino/search" data-owner-scoped-search-url="/orgs/esp8266/search" data-unscoped-search-url="/search" action="/esp8266/Arduino/search" accept-charset="UTF-8" method="get">
+
+       ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:363:7: error: stray '\342' in program
+
+       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:363:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:363:7: error: stray '\265' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:368:7: error: stray '\342' in program
+
+       <span class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:368:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:368:7: error: stray '\265' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:404:7: error: stray '\342' in program
+
+       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:404:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:404:7: error: stray '\265' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:409:7: error: stray '\342' in program
+
+       <span class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:409:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:409:7: error: stray '\265' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:436:7: error: stray '\342' in program
+
+       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:436:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:436:7: error: stray '\265' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:441:7: error: stray '\342' in program
+
+       <span class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:441:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:441:7: error: stray '\265' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:468:7: error: stray '\342' in program
+
+       <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:468:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:468:7: error: stray '\265' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:473:7: error: stray '\342' in program
+
+       <span class="d-inline-block ml-1 v-align-middle">↵</span>
+
+       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:473:7: error: stray '\206' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:473:7: error: stray '\265' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:855:13: error: missing terminating " character
+
+             data-action="
+
+             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:856:41: error: stray '#' in program
+
+               input-entered:ref-selector#inputEntered
+
+                                         ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:857:40: error: stray '#' in program
+
+               tab-selected:ref-selector#tabSelected
+
+                                        ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:858:38: error: stray '#' in program
+
+               focus-list:ref-selector#focusFirstListMember
+
+                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:859:13: error: missing terminating " character
+
+             "
+
+             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:877:13: error: missing terminating ' character
+
+             <!-- TODO: this max-height is necessary or else the branch list won't scroll.  why? -->
+
+             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:904:13: error: missing terminating " character
+
+             data-action="
+
+             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:905:41: error: stray '#' in program
+
+               input-entered:ref-selector#inputEntered
+
+                                         ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:906:40: error: stray '#' in program
+
+               tab-selected:ref-selector#tabSelected
+
+                                        ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:907:38: error: stray '#' in program
+
+               focus-list:ref-selector#focusFirstListMember
+
+                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:908:13: error: missing terminating " character
+
+             "
+
+             ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1019:19: error: missing terminating ' character
+
+                   <a data-pjax="true" title='Revert "Allman now (#6080)" (#6090)
+
+                   ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1021:587: error: stray '#' in program
+
+ This reverts commit 98125f88605cd7e46e9be4e1b3ad0600dd5d2b51.' class="Link--secondary" href="/esp8266/Arduino/commit/eea9999dc5eaf464a432f77d5b65269f9baf198d">Revert "Allman now (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="443156568" data-permission-text="Title is private" data-url="https://github.com/esp8266/Arduino/issues/6080" data-hovercard-type="pull_request" data-hovercard-url="/esp8266/Arduino/pull/6080/hovercard" href="https://github.com/esp8266/Arduino/pull/6080">#6080</a><a data-pjax="true" title='Revert "Allman now (#6080)" (#6090)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1023:571: error: stray '#' in program
+
+ This reverts commit 98125f88605cd7e46e9be4e1b3ad0600dd5d2b51.' class="Link--secondary" href="/esp8266/Arduino/commit/eea9999dc5eaf464a432f77d5b65269f9baf198d">)" (</a><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="443602197" data-permission-text="Title is private" data-url="https://github.com/esp8266/Arduino/issues/6090" data-hovercard-type="pull_request" data-hovercard-url="/esp8266/Arduino/pull/6090/hovercard" href="https://github.com/esp8266/Arduino/pull/6090">#6090</a><a data-pjax="true" title='Revert "Allman now (#6080)" (#6090)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1025:1: error: missing terminating ' character
+
+ This reverts commit 98125f88605cd7e46e9be4e1b3ad0600dd5d2b51.' class="Link--secondary" href="/esp8266/Arduino/commit/eea9999dc5eaf464a432f77d5b65269f9baf198d">)</a>
+
+ ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1109:5: error: missing terminating " character
+
+     <div data-target="readme-toc.content" class="Box mt-3 position-relative
+
+     ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1110:5: error: missing terminating " character
+
+     ">
+
+     ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1283:70: error: stray '#' in program
+
+         <td id="LC20" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">pragma</span> once</td>
+
+                                                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1292:70: error: stray '#' in program
+
+         <td id="LC22" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">ifdef</span> __cplusplus</td>
+
+                                                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1300:70: error: stray '#' in program
+
+         <td id="LC24" class="blob-code blob-code-inner js-file-line">#endif</td>
+
+                                                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1694:71: error: stray '#' in program
+
+         <td id="LC120" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">ifdef</span> __cplusplus</td>
+
+                                                                       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1702:71: error: stray '#' in program
+
+         <td id="LC122" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">endif</span></td>
+
+                                                                       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1740:7: error: missing terminating ' character
+
+       <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+
+       ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1801:5: error: stray '\342' in program
+
+     You can’t perform that action at this time.
+
+     ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1801:5: error: stray '\200' in program
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:1801:5: error: stray '\231' in program
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:7:1: error: expected unqualified-id before '<' token
+
+ <!DOCTYPE html>
+
+ ^
+
+In file included from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/MyMainESP8266.cpp:33:0,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/MySensors.h:441,
+
+                 from C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master\examples\GatewayESP8266\GatewayESP8266.ino:114:
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:186:29: error: 'up' does not name a type
+
+                   Sign&nbsp;up
+
+                             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:214:275: error: expected unqualified-id before '<' token
+
+                     <a href="/features" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a>
+
+                                                                                                                                                                                                                                                                                   ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:216:251: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/mobile" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Mobile <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                           ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:217:262: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Actions <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                      ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:218:268: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/codespaces" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Codespaces <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                            ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:219:264: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Packages <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                        ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:220:264: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Security <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                        ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:221:271: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Code review <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                               ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:222:285: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Project management <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:223:272: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Integrations <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:227:323: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/sponsors" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Sponsors">GitHub Sponsors <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                   ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:228:339: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories<span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                   ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:251:307: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                   ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:256:299: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Topics">Topics <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                           ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:257:316: error: expected unqualified-id before '<' token
+
+                         <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Collections">Collections <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                            ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:258:305: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Trending">Trending <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                 ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:259:327: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:260:340: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                    ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:265:279: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://github.com/readme" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">The ReadME Project <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:266:317: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Events">Events <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:267:334: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Community forum">Community forum <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                              ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:268:340: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                    ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:269:349: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://stars.github.com" class="py-2 pb-0 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Stars Program">GitHub Stars program <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:289:270: error: expected unqualified-id before '<' token
+
+                     <a href="/pricing" class="pb-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a>
+
+                                                                                                                                                                                                                                                                              ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:292:333: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                             ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:293:343: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                       ^
+
+C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master/hal/architecture/ESP8266/gdb_hooks.h:297:343: error: expected unqualified-id before '<' token
+
+                       <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+                                                                                                                                                                                                                                                                                                                                                       ^
+
+Użycie biblioteki MySensors-master w wersji 2.3.2 z folderu: C:\Users\mateu\OneDrive\Dokumenty\Arduino\libraries\MySensors-master 
+
+Użycie biblioteki SPI w wersji 1.0 z folderu: C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.3.0\libraries\SPI 
+
+Użycie biblioteki ESP8266WiFi w wersji 1.0 z folderu: C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.3.0\libraries\ESP8266WiFi 
+
+Użycie biblioteki EEPROM w wersji 1.0 z folderu: C:\Users\mateu\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.3.0\libraries\EEPROM 
+
+exit status 1
+
+Błąd kompilacji dla płytki NodeMCU 0.9 (ESP-12 Module).
+
